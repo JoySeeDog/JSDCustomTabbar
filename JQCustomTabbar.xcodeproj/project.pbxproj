@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFC3F1301DC0A8AD00B2E4E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC3F12F1DC0A8AC00B2E4E7 /* main.m */; };
+		CFC3F1331DC0A8AD00B2E4E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC3F1321DC0A8AD00B2E4E7 /* AppDelegate.m */; };
+		CFC3F1361DC0A8AD00B2E4E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC3F1351DC0A8AD00B2E4E7 /* ViewController.m */; };
+		CFC3F1391DC0A8AE00B2E4E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC3F1371DC0A8AE00B2E4E7 /* Main.storyboard */; };
+		CFC3F13B1DC0A8AF00B2E4E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC3F13A1DC0A8AF00B2E4E7 /* Assets.xcassets */; };
+		CFC3F13E1DC0A8AF00B2E4E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC3F13C1DC0A8AF00B2E4E7 /* LaunchScreen.storyboard */; };
+		CFC3F1491DC0A8AF00B2E4E7 /* JQCustomTabbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC3F1481DC0A8AF00B2E4E7 /* JQCustomTabbarTests.m */; };
+		CFC3F1541DC0A8AF00B2E4E7 /* JQCustomTabbarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC3F1531DC0A8AF00B2E4E7 /* JQCustomTabbarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFC3F1451DC0A8AF00B2E4E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFC3F1231DC0A8AB00B2E4E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFC3F12A1DC0A8AC00B2E4E7;
+			remoteInfo = JQCustomTabbar;
+		};
+		CFC3F1501DC0A8AF00B2E4E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFC3F1231DC0A8AB00B2E4E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFC3F12A1DC0A8AC00B2E4E7;
+			remoteInfo = JQCustomTabbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFC3F12B1DC0A8AC00B2E4E7 /* JQCustomTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQCustomTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC3F12F1DC0A8AC00B2E4E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFC3F1311DC0A8AD00B2E4E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFC3F1321DC0A8AD00B2E4E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFC3F1341DC0A8AD00B2E4E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFC3F1351DC0A8AD00B2E4E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFC3F1381DC0A8AE00B2E4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFC3F13A1DC0A8AF00B2E4E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFC3F13D1DC0A8AF00B2E4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFC3F13F1DC0A8AF00B2E4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC3F1441DC0A8AF00B2E4E7 /* JQCustomTabbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQCustomTabbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC3F1481DC0A8AF00B2E4E7 /* JQCustomTabbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQCustomTabbarTests.m; sourceTree = "<group>"; };
+		CFC3F14A1DC0A8AF00B2E4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC3F14F1DC0A8AF00B2E4E7 /* JQCustomTabbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQCustomTabbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC3F1531DC0A8AF00B2E4E7 /* JQCustomTabbarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQCustomTabbarUITests.m; sourceTree = "<group>"; };
+		CFC3F1551DC0A8AF00B2E4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFC3F1281DC0A8AC00B2E4E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC3F1411DC0A8AF00B2E4E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC3F14C1DC0A8AF00B2E4E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFC3F1221DC0A8AB00B2E4E7 = {
+			isa = PBXGroup;
+			children = (
+				CFC3F12D1DC0A8AC00B2E4E7 /* JQCustomTabbar */,
+				CFC3F1471DC0A8AF00B2E4E7 /* JQCustomTabbarTests */,
+				CFC3F1521DC0A8AF00B2E4E7 /* JQCustomTabbarUITests */,
+				CFC3F12C1DC0A8AC00B2E4E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFC3F12C1DC0A8AC00B2E4E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFC3F12B1DC0A8AC00B2E4E7 /* JQCustomTabbar.app */,
+				CFC3F1441DC0A8AF00B2E4E7 /* JQCustomTabbarTests.xctest */,
+				CFC3F14F1DC0A8AF00B2E4E7 /* JQCustomTabbarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFC3F12D1DC0A8AC00B2E4E7 /* JQCustomTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				CFC3F1311DC0A8AD00B2E4E7 /* AppDelegate.h */,
+				CFC3F1321DC0A8AD00B2E4E7 /* AppDelegate.m */,
+				CFC3F1341DC0A8AD00B2E4E7 /* ViewController.h */,
+				CFC3F1351DC0A8AD00B2E4E7 /* ViewController.m */,
+				CFC3F1371DC0A8AE00B2E4E7 /* Main.storyboard */,
+				CFC3F13A1DC0A8AF00B2E4E7 /* Assets.xcassets */,
+				CFC3F13C1DC0A8AF00B2E4E7 /* LaunchScreen.storyboard */,
+				CFC3F13F1DC0A8AF00B2E4E7 /* Info.plist */,
+				CFC3F12E1DC0A8AC00B2E4E7 /* Supporting Files */,
+			);
+			path = JQCustomTabbar;
+			sourceTree = "<group>";
+		};
+		CFC3F12E1DC0A8AC00B2E4E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFC3F12F1DC0A8AC00B2E4E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFC3F1471DC0A8AF00B2E4E7 /* JQCustomTabbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFC3F1481DC0A8AF00B2E4E7 /* JQCustomTabbarTests.m */,
+				CFC3F14A1DC0A8AF00B2E4E7 /* Info.plist */,
+			);
+			path = JQCustomTabbarTests;
+			sourceTree = "<group>";
+		};
+		CFC3F1521DC0A8AF00B2E4E7 /* JQCustomTabbarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFC3F1531DC0A8AF00B2E4E7 /* JQCustomTabbarUITests.m */,
+				CFC3F1551DC0A8AF00B2E4E7 /* Info.plist */,
+			);
+			path = JQCustomTabbarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFC3F12A1DC0A8AC00B2E4E7 /* JQCustomTabbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC3F1581DC0A8AF00B2E4E7 /* Build configuration list for PBXNativeTarget "JQCustomTabbar" */;
+			buildPhases = (
+				CFC3F1271DC0A8AC00B2E4E7 /* Sources */,
+				CFC3F1281DC0A8AC00B2E4E7 /* Frameworks */,
+				CFC3F1291DC0A8AC00B2E4E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JQCustomTabbar;
+			productName = JQCustomTabbar;
+			productReference = CFC3F12B1DC0A8AC00B2E4E7 /* JQCustomTabbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFC3F1431DC0A8AF00B2E4E7 /* JQCustomTabbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC3F15B1DC0A8AF00B2E4E7 /* Build configuration list for PBXNativeTarget "JQCustomTabbarTests" */;
+			buildPhases = (
+				CFC3F1401DC0A8AF00B2E4E7 /* Sources */,
+				CFC3F1411DC0A8AF00B2E4E7 /* Frameworks */,
+				CFC3F1421DC0A8AF00B2E4E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFC3F1461DC0A8AF00B2E4E7 /* PBXTargetDependency */,
+			);
+			name = JQCustomTabbarTests;
+			productName = JQCustomTabbarTests;
+			productReference = CFC3F1441DC0A8AF00B2E4E7 /* JQCustomTabbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFC3F14E1DC0A8AF00B2E4E7 /* JQCustomTabbarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC3F15E1DC0A8AF00B2E4E7 /* Build configuration list for PBXNativeTarget "JQCustomTabbarUITests" */;
+			buildPhases = (
+				CFC3F14B1DC0A8AF00B2E4E7 /* Sources */,
+				CFC3F14C1DC0A8AF00B2E4E7 /* Frameworks */,
+				CFC3F14D1DC0A8AF00B2E4E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFC3F1511DC0A8AF00B2E4E7 /* PBXTargetDependency */,
+			);
+			name = JQCustomTabbarUITests;
+			productName = JQCustomTabbarUITests;
+			productReference = CFC3F14F1DC0A8AF00B2E4E7 /* JQCustomTabbarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFC3F1231DC0A8AB00B2E4E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = JoySeeDog;
+				TargetAttributes = {
+					CFC3F12A1DC0A8AC00B2E4E7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GD9P546353;
+						ProvisioningStyle = Automatic;
+					};
+					CFC3F1431DC0A8AF00B2E4E7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GD9P546353;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFC3F12A1DC0A8AC00B2E4E7;
+					};
+					CFC3F14E1DC0A8AF00B2E4E7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GD9P546353;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFC3F12A1DC0A8AC00B2E4E7;
+					};
+				};
+			};
+			buildConfigurationList = CFC3F1261DC0A8AB00B2E4E7 /* Build configuration list for PBXProject "JQCustomTabbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFC3F1221DC0A8AB00B2E4E7;
+			productRefGroup = CFC3F12C1DC0A8AC00B2E4E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFC3F12A1DC0A8AC00B2E4E7 /* JQCustomTabbar */,
+				CFC3F1431DC0A8AF00B2E4E7 /* JQCustomTabbarTests */,
+				CFC3F14E1DC0A8AF00B2E4E7 /* JQCustomTabbarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFC3F1291DC0A8AC00B2E4E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC3F13E1DC0A8AF00B2E4E7 /* LaunchScreen.storyboard in Resources */,
+				CFC3F13B1DC0A8AF00B2E4E7 /* Assets.xcassets in Resources */,
+				CFC3F1391DC0A8AE00B2E4E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC3F1421DC0A8AF00B2E4E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC3F14D1DC0A8AF00B2E4E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFC3F1271DC0A8AC00B2E4E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC3F1361DC0A8AD00B2E4E7 /* ViewController.m in Sources */,
+				CFC3F1331DC0A8AD00B2E4E7 /* AppDelegate.m in Sources */,
+				CFC3F1301DC0A8AD00B2E4E7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC3F1401DC0A8AF00B2E4E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC3F1491DC0A8AF00B2E4E7 /* JQCustomTabbarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC3F14B1DC0A8AF00B2E4E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC3F1541DC0A8AF00B2E4E7 /* JQCustomTabbarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFC3F1461DC0A8AF00B2E4E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFC3F12A1DC0A8AC00B2E4E7 /* JQCustomTabbar */;
+			targetProxy = CFC3F1451DC0A8AF00B2E4E7 /* PBXContainerItemProxy */;
+		};
+		CFC3F1511DC0A8AF00B2E4E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFC3F12A1DC0A8AC00B2E4E7 /* JQCustomTabbar */;
+			targetProxy = CFC3F1501DC0A8AF00B2E4E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFC3F1371DC0A8AE00B2E4E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFC3F1381DC0A8AE00B2E4E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFC3F13C1DC0A8AF00B2E4E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFC3F13D1DC0A8AF00B2E4E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFC3F1561DC0A8AF00B2E4E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFC3F1571DC0A8AF00B2E4E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFC3F1591DC0A8AF00B2E4E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GD9P546353;
+				INFOPLIST_FILE = JQCustomTabbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoySeeDog.JQCustomTabbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFC3F15A1DC0A8AF00B2E4E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GD9P546353;
+				INFOPLIST_FILE = JQCustomTabbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoySeeDog.JQCustomTabbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFC3F15C1DC0A8AF00B2E4E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GD9P546353;
+				INFOPLIST_FILE = JQCustomTabbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoySeeDog.JQCustomTabbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JQCustomTabbar.app/JQCustomTabbar";
+			};
+			name = Debug;
+		};
+		CFC3F15D1DC0A8AF00B2E4E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GD9P546353;
+				INFOPLIST_FILE = JQCustomTabbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoySeeDog.JQCustomTabbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JQCustomTabbar.app/JQCustomTabbar";
+			};
+			name = Release;
+		};
+		CFC3F15F1DC0A8AF00B2E4E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GD9P546353;
+				INFOPLIST_FILE = JQCustomTabbarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoySeeDog.JQCustomTabbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JQCustomTabbar;
+			};
+			name = Debug;
+		};
+		CFC3F1601DC0A8AF00B2E4E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GD9P546353;
+				INFOPLIST_FILE = JQCustomTabbarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoySeeDog.JQCustomTabbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JQCustomTabbar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFC3F1261DC0A8AB00B2E4E7 /* Build configuration list for PBXProject "JQCustomTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC3F1561DC0A8AF00B2E4E7 /* Debug */,
+				CFC3F1571DC0A8AF00B2E4E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFC3F1581DC0A8AF00B2E4E7 /* Build configuration list for PBXNativeTarget "JQCustomTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC3F1591DC0A8AF00B2E4E7 /* Debug */,
+				CFC3F15A1DC0A8AF00B2E4E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFC3F15B1DC0A8AF00B2E4E7 /* Build configuration list for PBXNativeTarget "JQCustomTabbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC3F15C1DC0A8AF00B2E4E7 /* Debug */,
+				CFC3F15D1DC0A8AF00B2E4E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFC3F15E1DC0A8AF00B2E4E7 /* Build configuration list for PBXNativeTarget "JQCustomTabbarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC3F15F1DC0A8AF00B2E4E7 /* Debug */,
+				CFC3F1601DC0A8AF00B2E4E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFC3F1231DC0A8AB00B2E4E7 /* Project object */;
+}
