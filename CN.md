@@ -1,4 +1,4 @@
-> 本文将从一个具体的实例出发，介绍如何比较简单的自定义类似咸鱼的TabBar。
+自定义了一个类似类似咸鱼的TabBar，又加了一个蛋疼的需求在里面。
 
 UI设计了一个很有趣的需求。就是在TabBar点击的时候，下面的文字需要变成一个图片。具体看图片，就是红色箭头这里。
 [![Screenshot](https://github.com/joyseedog/JQCustomTabbar/blob/master/tab.png)](https://github.com/joyseedog/JQCustomTabbar/blob/master)
