@@ -13,7 +13,7 @@ UI设计了一个很有趣的需求。就是在TabBar点击的时候，下面的
 ###圆形按钮
 中间那个圆形的按钮，我们只需要在Tabbar上面再加一个Button不就好了。
 
-```
+``` Objective-C
     UIButton *button = [[UIButton alloc]initWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width/2-37.5 , -15, 75, 75)];
     
     button.layer.cornerRadius = 37.5;
@@ -32,7 +32,7 @@ UI设计了一个很有趣的需求。就是在TabBar点击的时候，下面的
 
 然后想到的是在上面加`ImageView`的方式进行解决，怎么加又是一个问题，因为需要和选中的状态联动起来。还有就是加到哪里，总不能自己去算位置。于是我看了一下`TabBar`的图层结构，我们可以使用它下面的子视图来定位计算我们的`ImageView`要加到哪里。
 
-```
+``` Objective-C
  for (UIView *UITabBarButton in self.tabBar.subviews) {
      
         if ([@"UITabBarButton" isEqualToString:NSStringFromClass([UITabBarButton class])]) {
@@ -46,7 +46,7 @@ UI设计了一个很有趣的需求。就是在TabBar点击的时候，下面的
 
 另外一个问题就是如何在选中Tab的时候，隐藏文字显示小半圆呢，我的做法是定义了一个数组用来存储`imageView`然后在代理方法里面进行隐藏和显示的处理。
 
-```
+``` Objective-C
 for (int i = 0; i<self.jqTabBarViewController.customSelectViews.count;i++) {
         UIImageView *imageView = [self.jqTabBarViewController.customSelectViews objectAtIndex:i];
         if (i == self.jqTabBarViewController.selectedIndex) {
