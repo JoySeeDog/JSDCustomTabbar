@@ -10,18 +10,6 @@ by [Joyseedog](http://www.iseedog.com)
  * build in xcode8 with ARC.
 
 
-##USAGE
-
-```
- NSArray *leftArray = [NSArray arrayWithObjects:@"A",@"B",@"C",@"D",@"E", nil];
- NSArray *rightArray =  [NSArray arrayWithObjects:@"AA",@"BB",@"CC",@"DD",@"EE", nil];
-    
- JQCustomPicker *jqCustomPicker = [[JQCustomPicker alloc] initWithSelectedBackColor:[UIColor blueColor] textColor:[UIColor whiteColor] plainColor:[UIColor blueColor] title:@"JQ Picker" leftArray:leftArray rightArray:rightArray];
- jqCustomPicker.delegate = self;
- [jqCustomPicker showInView:self.view];
-
-```
-
 ##LICENSE
 Distributed under the MIT License.
 
@@ -31,6 +19,7 @@ Any contribution is more than welcome! You can contribute through pull requests 
 #Author
 
 Contact me on my email: joyseedog@gmail.com
+
 
 
 
