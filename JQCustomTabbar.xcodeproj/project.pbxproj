@@ -10,11 +10,12 @@
 		CFC3F1301DC0A8AD00B2E4E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC3F12F1DC0A8AC00B2E4E7 /* main.m */; };
 		CFC3F1331DC0A8AD00B2E4E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC3F1321DC0A8AD00B2E4E7 /* AppDelegate.m */; };
 		CFC3F1361DC0A8AD00B2E4E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC3F1351DC0A8AD00B2E4E7 /* ViewController.m */; };
-		CFC3F1391DC0A8AE00B2E4E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC3F1371DC0A8AE00B2E4E7 /* Main.storyboard */; };
 		CFC3F13B1DC0A8AF00B2E4E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC3F13A1DC0A8AF00B2E4E7 /* Assets.xcassets */; };
 		CFC3F13E1DC0A8AF00B2E4E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC3F13C1DC0A8AF00B2E4E7 /* LaunchScreen.storyboard */; };
 		CFC3F1491DC0A8AF00B2E4E7 /* JQCustomTabbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC3F1481DC0A8AF00B2E4E7 /* JQCustomTabbarTests.m */; };
 		CFC3F1541DC0A8AF00B2E4E7 /* JQCustomTabbarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC3F1531DC0A8AF00B2E4E7 /* JQCustomTabbarUITests.m */; };
+		CFC3F1631DC0B4CD00B2E4E7 /* JQTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC3F1621DC0B4CD00B2E4E7 /* JQTabBarViewController.m */; };
+		CFC3F1651DC0BE9100B2E4E7 /* application_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC3F1641DC0BE9100B2E4E7 /* application_bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,6 @@
 		CFC3F1321DC0A8AD00B2E4E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CFC3F1341DC0A8AD00B2E4E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CFC3F1351DC0A8AD00B2E4E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CFC3F1381DC0A8AE00B2E4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFC3F13A1DC0A8AF00B2E4E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFC3F13D1DC0A8AF00B2E4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFC3F13F1DC0A8AF00B2E4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +51,9 @@
 		CFC3F14F1DC0A8AF00B2E4E7 /* JQCustomTabbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQCustomTabbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC3F1531DC0A8AF00B2E4E7 /* JQCustomTabbarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQCustomTabbarUITests.m; sourceTree = "<group>"; };
 		CFC3F1551DC0A8AF00B2E4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC3F1611DC0B4CD00B2E4E7 /* JQTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQTabBarViewController.h; sourceTree = "<group>"; };
+		CFC3F1621DC0B4CD00B2E4E7 /* JQTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQTabBarViewController.m; sourceTree = "<group>"; };
+		CFC3F1641DC0BE9100B2E4E7 /* application_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = application_bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +107,10 @@
 				CFC3F1311DC0A8AD00B2E4E7 /* AppDelegate.h */,
 				CFC3F1321DC0A8AD00B2E4E7 /* AppDelegate.m */,
 				CFC3F1341DC0A8AD00B2E4E7 /* ViewController.h */,
+				CFC3F1611DC0B4CD00B2E4E7 /* JQTabBarViewController.h */,
+				CFC3F1621DC0B4CD00B2E4E7 /* JQTabBarViewController.m */,
 				CFC3F1351DC0A8AD00B2E4E7 /* ViewController.m */,
-				CFC3F1371DC0A8AE00B2E4E7 /* Main.storyboard */,
+				CFC3F1641DC0BE9100B2E4E7 /* application_bg.png */,
 				CFC3F13A1DC0A8AF00B2E4E7 /* Assets.xcassets */,
 				CFC3F13C1DC0A8AF00B2E4E7 /* LaunchScreen.storyboard */,
 				CFC3F13F1DC0A8AF00B2E4E7 /* Info.plist */,
@@ -207,7 +212,7 @@
 				TargetAttributes = {
 					CFC3F12A1DC0A8AC00B2E4E7 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = GD9P546353;
+						DevelopmentTeam = 9487723JFT;
 						ProvisioningStyle = Automatic;
 					};
 					CFC3F1431DC0A8AF00B2E4E7 = {
@@ -250,8 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFC3F13E1DC0A8AF00B2E4E7 /* LaunchScreen.storyboard in Resources */,
+				CFC3F1651DC0BE9100B2E4E7 /* application_bg.png in Resources */,
 				CFC3F13B1DC0A8AF00B2E4E7 /* Assets.xcassets in Resources */,
-				CFC3F1391DC0A8AE00B2E4E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFC3F1361DC0A8AD00B2E4E7 /* ViewController.m in Sources */,
+				CFC3F1631DC0B4CD00B2E4E7 /* JQTabBarViewController.m in Sources */,
 				CFC3F1331DC0A8AD00B2E4E7 /* AppDelegate.m in Sources */,
 				CFC3F1301DC0A8AD00B2E4E7 /* main.m in Sources */,
 			);
@@ -314,14 +320,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CFC3F1371DC0A8AE00B2E4E7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CFC3F1381DC0A8AE00B2E4E7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CFC3F13C1DC0A8AF00B2E4E7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -425,7 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GD9P546353;
+				DEVELOPMENT_TEAM = 9487723JFT;
 				INFOPLIST_FILE = JQCustomTabbar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JoySeeDog.JQCustomTabbar;
@@ -437,7 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GD9P546353;
+				DEVELOPMENT_TEAM = 9487723JFT;
 				INFOPLIST_FILE = JQCustomTabbar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JoySeeDog.JQCustomTabbar;
@@ -514,6 +512,7 @@
 				CFC3F15A1DC0A8AF00B2E4E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFC3F15B1DC0A8AF00B2E4E7 /* Build configuration list for PBXNativeTarget "JQCustomTabbarTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +521,7 @@
 				CFC3F15D1DC0A8AF00B2E4E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFC3F15E1DC0A8AF00B2E4E7 /* Build configuration list for PBXNativeTarget "JQCustomTabbarUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +530,7 @@
 				CFC3F1601DC0A8AF00B2E4E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>JQCustomTabbar.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>CFC3F12A1DC0A8AC00B2E4E7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CFC3F1431DC0A8AF00B2E4E7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CFC3F14E1DC0A8AF00B2E4E7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
