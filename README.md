@@ -1,6 +1,6 @@
 #JQCustomPickView
 
-by [Joyseedog](http://www.iseedog.com)
+by [Joyseedog](http://www.iseedog.com)  [中文文档](https://github.com/joyseedog/JQCustomTabbar/blob/master/CN.md)
 
 ## DESCRIPTION ##
 
