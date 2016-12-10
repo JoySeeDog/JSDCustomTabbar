@@ -78,12 +78,12 @@
          
          switch (idx) {
              case 0:{
-                 obj.tabBarItem.title=@"首页";
+                 obj.tabBarItem.title=@"录音";
                  
              } break;
              case 1:{
                 
-                 obj.tabBarItem.title=@"关注";
+                 obj.tabBarItem.title=@"视频";
              } break;
              case 2:{
                  obj.tabBarItem.enabled=NO;
@@ -91,12 +91,12 @@
                  
              } break;
              case 3:{
-                 obj.tabBarItem.title=@"榜单";
+                 obj.tabBarItem.title=@"记事本";
                  
              } break;
              case 4:{
         
-                 obj.tabBarItem.title=@"历史";
+                 obj.tabBarItem.title=@"声音";
                  
              } break;
                  

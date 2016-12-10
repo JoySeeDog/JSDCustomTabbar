@@ -35,7 +35,7 @@
     
     
     ViewController *viewController3 = [[ViewController alloc] init];
-    viewController3.view.backgroundColor = [UIColor whiteColor];
+    viewController3.view.backgroundColor = [UIColor purpleColor];
     
     
     ViewController *viewController4 = [[ViewController alloc] init];
@@ -51,7 +51,7 @@
     
 
 //  12092c
-    [[UITabBar appearance] setBarTintColor:[UIColor purpleColor]];
+//    [[UITabBar appearance] setBarTintColor:[UIColor purpleColor]];
     //取消tabBar的透明效果。
     [UITabBar appearance].translucent = NO;
     
@@ -59,15 +59,15 @@
         
         switch (idx) {
             case 0:{
-                obj.tabBarItem.image = [[UIImage imageNamed:@"main_camera_current"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-                obj.tabBarItem.selectedImage = [[UIImage imageNamed:@"main_camera_current"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-                obj.tabBarItem.title=@"首页";
+                obj.tabBarItem.image = [[UIImage imageNamed:@"recording"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+                obj.tabBarItem.selectedImage = [[UIImage imageNamed:@"recording"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+                obj.tabBarItem.title=@"录音";
                 
             } break;
             case 1:{
-                obj.tabBarItem.image = [[UIImage imageNamed:@"main_like_current"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-                obj.tabBarItem.selectedImage = [[UIImage imageNamed:@"main_like_current"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-                obj.tabBarItem.title=@"关注";
+                obj.tabBarItem.image = [[UIImage imageNamed:@"video"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+                obj.tabBarItem.selectedImage = [[UIImage imageNamed:@"video"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+                obj.tabBarItem.title=@"视频";
                 
                 
             } break;
@@ -77,15 +77,15 @@
                 
             } break;
             case 3:{
-                obj.tabBarItem.image = [[UIImage imageNamed:@"main_crown_current"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-                obj.tabBarItem.selectedImage = [[UIImage imageNamed:@"main_crown_current"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-                obj.tabBarItem.title=@"榜单";
+                obj.tabBarItem.image = [[UIImage imageNamed:@"txt"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+                obj.tabBarItem.selectedImage = [[UIImage imageNamed:@"txt"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+                obj.tabBarItem.title=@"记事本";
                 
             } break;
             case 4:{
-                obj.tabBarItem.image = [[UIImage imageNamed:@"main_history_current"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-                obj.tabBarItem.selectedImage = [[UIImage imageNamed:@"main_history_current"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-                obj.tabBarItem.title=@"历史";
+                obj.tabBarItem.image = [[UIImage imageNamed:@"voice"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+                obj.tabBarItem.selectedImage = [[UIImage imageNamed:@"voice"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+                obj.tabBarItem.title=@"声音";
            
             } break;
            
@@ -95,7 +95,7 @@
     }];
     
     //修改文字颜色
-    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], NSForegroundColorAttributeName,
+    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[[UIColor blackColor] colorWithAlphaComponent:0.5], NSForegroundColorAttributeName,
                                                        nil] forState:UIControlStateNormal];
     UIColor *titleHighlightedColor = [UIColor greenColor];
     [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys: titleHighlightedColor, NSForegroundColorAttributeName,
@@ -121,9 +121,9 @@
     button.layer.cornerRadius = 37.5;
     button.layer.masksToBounds = YES;
     
-    [button setBackgroundColor:[UIColor purpleColor]];
+    [button setBackgroundColor:[UIColor whiteColor]];
     button.imageView.contentMode = UIViewContentModeScaleAspectFit;
-    [button setImage:[UIImage imageNamed:@"main_live"] forState:UIControlStateNormal];
+    [button setImage:[UIImage imageNamed:@"camera"] forState:UIControlStateNormal];
     [self.tabBar addSubview:button];
     [self.tabBar bringSubviewToFront:button];
     [button addTarget:self action:@selector(selectImagePicker) forControlEvents:UIControlEventTouchUpInside];
