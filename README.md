@@ -1,10 +1,10 @@
-#JQCustomPickView
+#JSDCustomPickView
 
 by [Joyseedog](http://www.iseedog.com)  [中文文档](https://github.com/joyseedog/JQCustomTabbar/blob/master/CN.md)
 
 ## DESCRIPTION ##
 
-[![Screenshot](https://github.com/JoySeeDog/JQCustomTabbar/blob/master/jqtabbar_gif.gif)](https://github.com/joyseedog/JQCustomTabbar/blob/master)
+[![Screenshot](https://github.com/JoySeeDog/JSDCustomTabbar/blob/master/jqtabbar_gif.gif)](https://github.com/joyseedog/JQCustomTabbar/blob/master)
 
  * This demo provides a simple way to customizable TabBar for your iOS app.
  * build in xcode8 with ARC.
