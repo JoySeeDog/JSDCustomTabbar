@@ -1,7 +1,7 @@
 自定义了一个类似类似咸鱼的TabBar，又加了一个蛋疼的需求在里面。
 
 UI设计了一个很有趣的需求。就是在TabBar点击的时候，下面的文字需要变成一个图片。具体看图片，就是红色箭头这里。
-[![Screenshot](https://github.com/JoySeeDog/JQCustomTabbar/blob/master/jqtabbar_gif.gif)](https://github.com/joyseedog/JQCustomTabbar/blob/master)
+[![Screenshot](https://github.com/JoySeeDog/JSDCustomTabbar/blob/master/tab.png)](https://github.com/joyseedog/JQCustomTabbar/blob/master)
 
 ##年轻的想法
 有的开发者可能会想，TabBar自定义太麻烦了，美工改设计吧。有的可能会想，让美工切一个很大的图。不就可以直接覆盖了吗。道理并没有错。不过写代码还是需要有一点追求嘛。
@@ -57,7 +57,7 @@ for (int i = 0; i<self.jqTabBarViewController.customSelectViews.count;i++) {
     }
 ```
 最后的效果如下：
-[![Screenshot](https://github.com/joyseedog/JQCustomTabbar/blob/master/jqtabbar_gif.gif)](https://github.com/joyseedog/JQCustomTabbar/blob/master)
+[![Screenshot](https://github.com/JoySeeDog/JSDCustomTabbar/blob/master/jqtabbar_gif.gif)](https://github.com/JoySeeDog/JSDCustomTabbar/blob/master)
 
 ##待改进
 需要改进的是中间那个点击区域的范围。超出TabBar的区域不能点击，我看了咸鱼还有一些应用有这个问题。解决的方式就是自定义一个TabBar，这样我也试过，不过这样下面那个半圆的选中按钮就会出问题，不能两者都达到要求。如果有好的思路可以给我留言。
