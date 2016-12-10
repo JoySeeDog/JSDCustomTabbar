@@ -1,7 +1,7 @@
 自定义了一个类似类似咸鱼的TabBar，又加了一个蛋疼的需求在里面。
 
 UI设计了一个很有趣的需求。就是在TabBar点击的时候，下面的文字需要变成一个图片。具体看图片，就是红色箭头这里。
-[![Screenshot](https://github.com/joyseedog/JQCustomTabbar/blob/master/tab.png)](https://github.com/joyseedog/JQCustomTabbar/blob/master)
+[![Screenshot](https://github.com/JoySeeDog/JQCustomTabbar/blob/master/jqtabbar_gif.gif)](https://github.com/joyseedog/JQCustomTabbar/blob/master)
 
 ##年轻的想法
 有的开发者可能会想，TabBar自定义太麻烦了，美工改设计吧。有的可能会想，让美工切一个很大的图。不就可以直接覆盖了吗。道理并没有错。不过写代码还是需要有一点追求嘛。
